@@ -1,17 +1,17 @@
 {
 	"intro": {
-		"start": "define-public-var Blockcity",
-		"end": "print (count-even u1) Ordinals marketplace on Stacks",
+		"start": "ORDINALS WITH PASSIVE YIELDS",
+		"end": "ORDINALS ON-CHAIN CREDIT LINE",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
 		"startDelay": 1000,
-		"deleteDelay": 3000,
-		"restartDelay": 12000
+		"deleteDelay": 2000,
+		"restartDelay": 6000
 	},
 
 	"header": {
-		"name": "Blockcity",
+		"name": "",
 		"usp": "ORDINALS the future of passive income"
 	},
 

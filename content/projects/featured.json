@@ -1,10 +1,10 @@
 [
 	{
-		"project": "My Supply Co.",
-		"url": "https://mysupplyco.com",
-		"repo": "Private",
-		"descriptionTitle": "D2C & B2B ecommerce site and blog",
-		"description": "with elegant solutions for a complex codebase and customer journey.",
+		"project": "Earn yields from POX cycles",
+		"url": "https://docs.stacks.co/stacks-101/proof-of-transfer",
+		"repo": "Stacks",
+		"descriptionTitle": "We provide to our users option to earn yields just by hodling their ordi.",
+		"description": "Also we support BRC-20, STX-20 and SIP-009 token standards.",
 		"imageOptions": [
 		],
 		"images": [
@@ -12,26 +12,25 @@
 			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
 			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
 		],
-		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
-			{ "key": "mysql", 		"name": "mySQL", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
-			{ "key": "woocommerce", "name": "WooCommerce", 	"type": "devicon" },
-			{ "key": "wordpress",	"name": "Wordpress", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" }
-		]
+	    "stack": [
+			{ "key": "brc-20-stacks", "name": "BRC-20", "type": "crypto" },
+			{ "key": "bitcoin", 		"name": "Bitcoin", 		"type": "crypto" },
+			{ "key": "stacks", 		"name": "Stacks", 		"type": "devicon" },
+			{ "key": "stx", 	"name": "STX-20", 		"type": "devicon" },
+			{ "key": "sip", 	"name": "SIP-009", 	"type": "devicon" },
+			{ "key": "clarity",		"name": "Clarity", 		"type": "devicon" },
+			{ "key": "layer",		"name": "Layer1", 		"type": "devicon" },
+			{ "key": "pox",		"name": "POX", 		"type": "devicon" },
+			{ "key": "pool",			"name": "Pool", 	"type": "devicon" }
+		]	
+	
 	},
 	{
-		"project": "andrewnelson.net",
+		"project": "Lend and borrow",
 		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"repo": "Clarity",
+		"descriptionTitle": "Lenders deposit or lock their tokens to earn yields at a dynamic annual interest rate.",
+		"description": "Each particular token is stored in a liquidity pool using smart contracts. Yields are earnt in STX which can be swapped to desired token.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -39,15 +38,12 @@
 			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
-		]
+			{ "key": "lend", 		"name": "Lend", 		"type": "crypto" },
+			{ "key": "borrow", 		"name": "Borrow", 		"type": "crypto" },
+			{ "key": "pox", 		"name": "POX", 		"type": "crypto" },
+			{ "key": "clarity", 	"name": "Clarity", 		"type": "crypto" },
+			{ "key": "rewards", 	"name": "Rewards", 	"type": "crytpo" },
+			{ "key": "stx",		"name": "STX", 		"type": "crypto" }
+		]	
 	}
 ]

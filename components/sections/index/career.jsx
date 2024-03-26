@@ -32,8 +32,8 @@ export default function Career() {
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>My Supply Co.</h3>
-								<h4>Permanent Full-time</h4>
+								<h3>Earn by HODL</h3>
+								<h4>We support BRC-20, STX-20 and SIP-009 token standrds</h4>
 								<h4>Apr 2019 - Present · 3 yrs 10 mos</h4>
 								<h5>Vancouver, British Columbia, Canada</h5>
 							</span>

@@ -1,50 +1,47 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
-			"note": "Thank you for all the advice and feedback."
+			"person": "Stacks",
+			"link": "https://www.stacks.co/",
+			"note": "POX keeps us working and delivering rewards."
 		},
 		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
+			"person": "Bitcoin Startup Lab",
+			"link": "https://www.btcstartuplab.com/",
+			"note": "Checkout their amazing startup program."
 		},
 		{ 
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
+			"person": "Hiro Systems",
+			"link": "https://www.hiro.so/",
+			"note": "A major inspiration when it comes to building on Bitcoin."
 		},
 		{ 
-			"person": "Vercel - Platform",
-			"link": "https://vercel.com/docs",
-			"note": "Host your own Next.js project for free!"
+			"person": "Clarity",
+			"link": "https://book.clarity-lang.org/",
+			"note": "Smart contract language for building safe and reliable dapps."
 		}
 	],
 
 	"links": [
 		{ 
-			"person": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
-			"note": "Best in class creative assets."
+			"person": "Blockcity",
+			"link": "https://blockcityfi.substack.com/p/introduction",
+			"note": "Want to know more?."
 		}
 	],
 
 	"social": [
-		{
-			"url": "https://medium.com/@--andrewnelson",
-			"icon": "medium"
-		},
+		
 		{
 			"url": "https://dev.to/andrewnelson",
 			"icon": "dev"
 		},
 		{
-			"url": "https://www.linkedin.com/in/--andrewnelson/",
+			"url": "https://www.linkedin.com/company/blockcityfi/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/atlamors",
+			"url": "https://github.com/Blockcityfinance",
 			"icon": "github"
 		}
 	]
