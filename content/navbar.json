@@ -4,11 +4,11 @@
 		"title": "Home"
 	},
 	{
-		"url": "/case-studies",
+		"url": "",
 		"title": "Marketplace"
 	},
 	{
-		"url": "/case-studies",
+		"url": "https://blockcity.gitbook.io/docs",
 		"title": "Gitbook"
 	}
 

@@ -18,12 +18,12 @@ import about from '../../../styles/sections/index/about.module.scss';
 
 // Define methods array
 const methods = [
-    { key: 'planet-moon', name: 'User Research', type: 'fad' },
-    { key: 'qrcode', name: 'Digital Strategy', type: 'fad' },
-    { key: 'window', name: 'Design Systems', type: 'fad' },
-    { key: 'cubes', name: 'Product Strategy', type: 'far' },
-    { key: 'layer-plus', name: 'Brand Strategy', type: 'fad' },
-    { key: 'solar-system', name: 'Operations', type: 'fad' },
+    { key: 'planet-moon', name: 'HODL', type: 'fad' },
+    { key: 'qrcode', name: 'Compound', type: 'fad' },
+    { key: 'window', name: 'Lend', type: 'fad' },
+    { key: 'cubes', name: 'Borrow', type: 'far' },
+    { key: 'layer-plus', name: 'Earn', type: 'fad' },
+    { key: 'solar-system', name: 'Protocol', type: 'fad' },
 ];
 
 /**

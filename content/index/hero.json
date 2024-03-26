@@ -11,20 +11,20 @@
 	},
 
 	"header": {
-		"name": "",
-		"usp": "ORDINALS the future of passive income"
+		"name": "ORDINALS",
+		"usp": " the future of passive income"
 	},
 
 	"paragraph": "HODL to earn yields in Bitcoin Layer 1 ",
 	"buttons": {
 		"primary": {
 			"title": "Join Waitlist",
-			"url": "",
+			"url": "https://blockcityfi.substack.com/p/join-the-waitlist",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "Explore Now",
-			"url": "",
+			"url": "https://blockcityfi.substack.com/t/announcements",
 			"leaveSite": "true"
 		}
 	}
