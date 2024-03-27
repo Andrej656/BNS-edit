@@ -1,10 +1,10 @@
 [
 	{
-		"project": "Earn yields from POX cycles",
+		"project": "Earn Native Yields from Bitcoin Layer",
 		"url": "https://docs.stacks.co/stacks-101/proof-of-transfer",
 		"repo": "Stacks",
-		"descriptionTitle": "We provide to our users option to earn yields just by hodling their ordi.",
-		"description": "Also we support BRC-20, STX-20 and SIP-009 token standards.",
+		"descriptionTitle": "HODL your Ordinal or NFT using a non-custodial wallet to earn yields from Proof of Transfer (POX).",
+		"description": "Compound your yields to grow exponentially in a decentralized way, all tax-efficiently.",
 		"imageOptions": [
 		],
 		"images": [
@@ -27,8 +27,8 @@
 		"project": "Lend and borrow",
 		"url": "https://github.com/atlamors/portfolio",
 		"repo": "Clarity",
-		"descriptionTitle": "Lenders deposit or lock their tokens to earn yields at a dynamic annual interest rate.",
-		"description": "Each particular token is stored in a liquidity pool using smart contracts. Yields are earnt in STX which can be swapped to desired token.",
+		"descriptionTitle": "Lend your dormant Bitcoins or stablecoins and earn yields from Proof of Transfer (POX) without locking tokens or committing to the stacking cycles.",
+		"description": "Each digital asset has an on-chain credit line governed by its pegged reserves. Utilize your Ordinal or NFT as collateral to secure an instant loan at 0% interest.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],

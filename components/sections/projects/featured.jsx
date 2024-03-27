@@ -17,9 +17,9 @@ export default function FeaturedProjects() {
 		<Section classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Beyond Ordinary"
-					preTitle="Welcome to Our Unique Marketplace Realm"
-					subTitle="We give more for your digital assets."
+					title="Invest Smart, Earn Passively"
+					preTitle="Innovation is returning to Bitcoin"
+					subTitle="Powered by Bitcoin network."
 				/> 				{
 				content.map( (data, index) => {
 					return (

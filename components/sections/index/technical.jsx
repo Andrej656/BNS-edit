@@ -28,22 +28,22 @@ export default function Technical() {
 		<Section classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Technical"
-					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					title="Innovative design"
+					preTitle=""
+					subTitle=""
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
+							title="Bitcoin assets"
 							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							copy="At its heart, ₿lockCity presents a pioneering approach. It enables digital assets to be pegged to Bitcoin's foundational layer-1 (BTC) or layer-2 (STX). This dual capability ensures that assets benefit from the unparalleled security of Bitcoin while also leveraging the flexibility and efficiency of the Stacks layer, ensuring transaction finality through the Bitcoin network.."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							title="On-chain IV (Intrinsic Value)" 
+							copy="Digital assets on our protocol are endowed with a decentralized market value signified by decentralized IV that is beyond manipulation by any user or the protocol itself, governed solely by Bitcoin layer-1. This mechanism offers a distinct advantage: as the value of Bitcoin increases, so does the market value & borrowing power of your digital asset."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -52,8 +52,8 @@ export default function Technical() {
 							headerIcon={about.icon} 
 						/>
 						<BadgesBlock 
-							title="Technologies I love to build with" 
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+							title="Passive income layer of internet" 
+							copy="BlockCity is solidifying its position as the decentralized layer for online passive income. By merely holding assets enables you to sustain a long Bitcoin position and conveniently hedge it by borrowing against your asset at a 0% interest rate. We are poised to set a new standard in Bitcoin asset utilization and yield generation."
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
@@ -73,15 +73,14 @@ export default function Technical() {
 }
 
 const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
-	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+	{ key: 'photoshop', 	name: 'Digital Assets', 			type: 'devicon' },
+	{ key: 'figma', 		name: 'Design', 				type: 'devicon' },
+	{ key: 'vscode', 		name: 'Clarity', 			type: 'devicon' },
+	{ key: 'mailbox', 		name: 'Community', 			type: 'fas' },
+	{ key: 'computer-mouse',name: 'Safe', 			type: 'fas' },
+	{ key: 'list-music',	name: 'Transactions', 			type: 'fas' },
+	{ key: 'aftereffects',	name: 'NFT', 		type: 'devicon' },
+	{ key: 'premierepro',	name: 'Ordinals', 		type: 'devicon' },
 ]
 
 const tech	= [
@@ -89,15 +88,10 @@ const tech	= [
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
 	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
 	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'mysql', 		name: 'Stacks', 				type: 'devicon' },
+	{ key: 'mongodb', 		name: 'Clarity', 			type: 'devicon' },
 ]

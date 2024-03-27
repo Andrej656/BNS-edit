@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"start": "ORDINALS WITH PASSIVE YIELDS",
-		"end": "ORDINALS ON-CHAIN CREDIT LINE",
+		"end": "NFT's WITH PASSIVE YIELDS",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -11,11 +11,11 @@
 	},
 
 	"header": {
-		"name": "ORDINALS",
-		"usp": " the future of passive income"
+		"name": "Bitcoin",
+		"usp": " Marketplace With Passive Income"
 	},
 
-	"paragraph": "HODL to earn yields in Bitcoin Layer 1 ",
+	"paragraph": "A decentralized marketplace which unleashes passive income streams for digital assets (Ordinals, NFT, BNS, etc) rewarding both creators and collectors in a permissionless & non-custodial manner.",
 	"buttons": {
 		"primary": {
 			"title": "Join Waitlist",
