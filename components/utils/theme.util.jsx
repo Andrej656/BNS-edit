@@ -13,14 +13,13 @@ export default function SetTheme() {
 	const [ theme, setTheme ] = useState()
 
 	const toggleTheme = () => {
-		if ( theme == 'light') {
-			setTheme('dark')
-		} else if ( theme == 'dark' ) {
-			setTheme('unicorn')
-		} else if ( theme == 'unicorn' )  {
-			setTheme('light')
-		}
-	}
+    if (theme === 'light') {
+        setTheme('dark');
+    } else {
+        setTheme('light');
+    }
+};
+
 
 	const buttonIcon = (theme) => {
 		if ( theme == 'light') {
