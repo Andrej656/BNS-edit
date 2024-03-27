@@ -1,24 +1,24 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Stacks",
-			"link": "https://www.stacks.co/",
-			"note": "POX keeps us working and delivering rewards."
+			"person": "Docs",
+			"link": "https://blockcityfi.substack.com/t/getting-started",
+			"note": "Documentation outlining the protocol's functionalities and usage guidelines."
 		},
 		{ 
-			"person": "Bitcoin Startup Lab",
-			"link": "https://www.btcstartuplab.com/",
-			"note": "Checkout their amazing startup program."
+			"person": "FAQ",
+			"link": "https://blockcityfi.substack.com/p/faq",
+			"note": "Explore our FAQ section for answers to common queries about the protocol."
 		},
 		{ 
-			"person": "Hiro Systems",
-			"link": "https://www.hiro.so/",
-			"note": "A major inspiration when it comes to building on Bitcoin."
+			"person":"Blog", 
+			"link": "https://blockcityfi.substack.com/t/blogs",
+			"note": "Check out our latest blog post for insights into the protocol's features and updates."
 		},
 		{ 
-			"person": "Clarity",
-			"link": "https://book.clarity-lang.org/",
-			"note": "Smart contract language for building safe and reliable dapps."
+			"person": "Join community",
+			"link": "https://blockcityfi.substack.com/",
+			"note": "Join our vibrant community to engage with like-minded individuals."
 		}
 	],
 
