@@ -8,7 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "left", 	"h": "500", "w": "900", "url": "/img/stacks.png" }
+			{ "key": "mock-stack",	"hover": "left", 	"h": "470", "w": "900", "url": "/img/stacks.png" }
 		],
 	    "stack": [
 			{ "key": "brc-20-stacks", "name": "BRC-20", "type": "crypto" },
@@ -33,7 +33,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "480", "w": "960",  "url": "/img/portfolio-mock_single.png" }
+			{ "key": "portfolio", "hover": "left", "h": "480", "w": "840",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
 			{ "key": "lend", 		"name": "Lend", 		"type": "crypto" },
