@@ -2,12 +2,12 @@
 	"intro": {
 		"start": "ORDINALS WITH PASSIVE YIELDS",
 		"end": "NFT's WITH PASSIVE YIELDS",
-		"speed": 60,
-		"deletionSpeed": 80,
+		"speed": 40,
+		"deletionSpeed": 60,
 		"wrapper": "h2",
 		"startDelay": 1000,
 		"deleteDelay": 2000,
-		"restartDelay": 6000
+		"restartDelay": 4000
 	},
 
 	"header": {
