@@ -4,7 +4,7 @@ import Container 	from '../../structure/container';
 import Image from 'next/image'
 import SectionTitle from '../../blocks/section.title.block'
 
-import Icon from '../../utils/icon.util'
+
 
 import css from '../../../styles/sections/articles/recent.module.scss'
 
@@ -32,7 +32,7 @@ export default function Recent({ mediumArticles }) {
 									<img src={thumbnail} alt="Article thumbnail" />
 								</span>
 								<span className={css.header}>
-									<a href={link} rel="noreferrer" target="_blank">{title} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{title}</a>
 								</span>
 								<span className={css.descriptionContainer}>
 								</span>
@@ -43,7 +43,7 @@ export default function Recent({ mediumArticles }) {
 								<span className={css.topicsContainer}>
 									{
 									categories.map( (e, index) => {
-										return ( <span key={index} className={css.topics}><Icon icon={[ 'fab', 'medium' ]} /> {e}</span> )
+										return ( <span key={index} className={css.topics}> {e}</span> )
 									})
 									}
 								</span>

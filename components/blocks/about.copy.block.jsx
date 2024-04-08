@@ -1,5 +1,4 @@
-// Util packages
-import Icon from '../utils/icon.util'
+
 
 // Utility packages
 import space from '../utils/spacing.util';
@@ -17,9 +16,7 @@ export default function CopyBlock({ containerClass, iconClass, icon, title, copy
 	return (
 		<>
 		<div className={containerClass}>
-			<span className={iconClass}>
-				<Icon icon={icon} />
-			</span>
+			
 			<h3>{title}</h3>
 			<p>
 				{copy}

@@ -2,8 +2,7 @@ import { useEffect } from 'react'
 import { m, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
 
-// Utility components
-import Icon from '../utils/icon.util.jsx'
+
 
 /**
 * scss reference for utils should probably be pulled in from the first component under the section
@@ -89,7 +88,7 @@ function IconModule({ iconKey, iconType, color }) {
 		case 'fad':
 		case 'fat':
 		case 'fas':
-			return ( <Icon icon={[ iconType, iconKey ]} /> )
+			return 
 		case 'devicon':
 			return ( <i className={`devicon-${iconKey}-plain ${colored}`} /> )
 		default:

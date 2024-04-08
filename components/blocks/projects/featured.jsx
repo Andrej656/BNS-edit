@@ -5,7 +5,7 @@ import { m, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
 
 import Badges 		from '../../utils/badge.list.util'
-import Icon 		from '../../utils/icon.util'
+
 
 import css 			from '../../../styles/sections/projects/featured.module.scss'
 import content 		from '../../../content/projects/featured.json'
@@ -47,9 +47,7 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<m.div variants={''} className={css.viewProject}>
-						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
-					</m.div>
+				
 				</div>
 			</div>
 
