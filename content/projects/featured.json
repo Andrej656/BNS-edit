@@ -12,7 +12,7 @@
 		],
 	    "stack": [
 			{ "key": "brc-20-stacks", "name": "BRC-20", "type": "crypto" },
-			{ "key": "bitcoin", 		"name": "Bitcoin", 		"type": "crypto" },
+			{ "key": "bitcoin", 		"name": "Runes", 		"type": "crypto" },
 			{ "key": "stacks", 		"name": "Stacks", 		"type": "devicon" },
 			{ "key": "stx", 	"name": "STX-20", 		"type": "devicon" },
 			{ "key": "sip", 	"name": "SIP-009", 	"type": "devicon" },

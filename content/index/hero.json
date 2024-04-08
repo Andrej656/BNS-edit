@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"start": "ORDINALS WITH PASSIVE YIELDS",
-		"end": "NFT's WITH PASSIVE YIELDS",
+		"end": "RUNES WITH PASSIVE YIELDS",
 		"speed": 40,
 		"deletionSpeed": 60,
 		"wrapper": "h2",
@@ -15,7 +15,7 @@
 		"usp": " With Passive Income"
 	},
 
-	"paragraph": "A decentralized marketplace which unleashes passive income streams for digital assets (Ordinals, NFT, BNS, etc) rewarding both creators and collectors in a permissionless & non-custodial manner.",
+	"paragraph": "A decentralized marketplace which unleashes passive income streams for digital assets (Ordinals, Runes, BNS, etc) rewarding both creators and collectors in a permissionless & non-custodial manner.",
 	"buttons": {
 		"primary": {
 			"title": "Join Waitlist",
