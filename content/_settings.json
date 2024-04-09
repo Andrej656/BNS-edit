@@ -1,15 +1,10 @@
 {
-	"name": "₿lockCity",
-	"logo": "/public/img/logos/logo.png",
-	
-	"username": {
-		"github": "https://github.com/Blockcityfinance"
-		
-	},
-
-	"portfolio": { 
-		"forkthis": "Check the code! Its open-source 🥰",
-		"repo_html": "https://github.com/Blockcityfinance"
-		
-	}
+    "name": "<a href='/'>₿lockCity</a>",
+    "username": {
+        "github": "https://github.com/Blockcityfinance"
+    },
+    "portfolio": {
+        "forkthis": "Unlocking Wealth, one block at a time🥰",
+        "repo_html": "https://github.com/Blockcityfinance"
+    }
 }

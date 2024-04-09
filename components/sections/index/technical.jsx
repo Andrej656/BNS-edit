@@ -30,7 +30,7 @@ export default function Technical() {
 				<SectionTitle
 					title="Innovative design"
 					preTitle=""
-					subTitle=""
+					subTitle="Unique marketplace"
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>

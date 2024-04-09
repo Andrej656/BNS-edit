@@ -1,12 +1,11 @@
 [
-	
-	{
-		"url": "",
-		"title": "Marketplace"
-	},
-	{
-		"url": "https://blockcity.gitbook.io/docs",
-		"title": "Gitbook"
-	}
-
+ 
+  {
+    "url": "/",
+    "title": "Marketplace"
+  },
+  {
+    "url": "https://blockcity.gitbook.io/docs",
+    "title": "Gitbook"
+  }
 ]
