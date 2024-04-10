@@ -2,7 +2,7 @@
 	"acknowledgments": [
 		{ 
 			"person": "Docs",
-			"link": "https://blockcityfi.substack.com/t/getting-started",
+			"link": "https://blockcityfi.gitbook.io/docs",
 			"note": "Documentation outlining the protocol's functionalities and usage guidelines."
 		},
 		{ 
@@ -17,7 +17,7 @@
 		},
 		{ 
 			"person": "Join community",
-			"link": "https://blockcityfi.substack.com/",
+			"link": "https://blockcityfi.substack.com/p/join-the-community",
 			"note": "Join our vibrant community to engage with like-minded individuals."
 		}
 	],
@@ -26,7 +26,7 @@
 		{ 
 			"person": "Blockcity",
 			"link": "https://blockcityfi.substack.com/p/introduction",
-			"note": "Want to know more?."
+			"note": "Want to know more?"
 		}
 	],
 
