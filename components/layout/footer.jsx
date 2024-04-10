@@ -53,6 +53,9 @@ export default function Footer() {
                                     <a href={url} rel="noreferrer" target="_blank">
                                         <i className={`fab fa-${icon}`}style={{ height: '4rem', width: '4rem' }} /> {/* Make sure Font Awesome class is used here */}
                                     </a>
+									 {/* Logo */}
+									 
+           
                                 </li>
                             );
                         })}

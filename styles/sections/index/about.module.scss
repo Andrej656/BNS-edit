@@ -4,14 +4,14 @@
 .section {
 
 	.content {
-		$padding: 2rem;
+		$padding: 4rem;
 		position: relative;
 		display: flex;
 		flex-direction: row;
 		gap: 1rem;
 
 		> div {
-			padding: 0;
+			padding: 10;
 		}
 
 		h3 {
@@ -49,13 +49,13 @@
 			flex-direction: column;
 			gap: var(--size-1x);
 			border: 1px solid var(--primary-dark);
-			border-radius: 2rem;
+			border-radius: 4rem;
 			background: var(--background-dim2);
 			box-shadow: 0 0 30px var(--background);
 			overflow: hidden;
 
 			padding: var(--padding);
-			--padding: 2rem;
+			--padding: 4rem;
 			--padding-left: var(--padding);
 			--padding-top: var(--padding);
 			--padding-right: var(--padding);
@@ -73,7 +73,7 @@
 		}
 
 		.icon {
-			padding: 0.5rem;
+			padding: 0.7rem;
 			display: flex;
 			align-items: center;
 			background: var(--primary-dark);
@@ -82,7 +82,7 @@
 			aspect-ratio: 1;
 
 			svg {
-				height: 1.6rem;
+				height: 1.3rem;
 				color: var(--primary);
 
 				path {
@@ -96,7 +96,7 @@
 		// Columns
 		.image {
 			flex-basis: 50%;
-			flex-grow: 1;
+			flex-grow: 10;
 			flex-shrink: 1;
 			position: relative;
 
@@ -108,17 +108,22 @@
 				border-radius: 2rem;
 			}
 
-			&.technicalSvg {
-				> span {
-					position: relative !important;
-					overflow: visible !important;
-					height: 100% !important;
-					z-index: -1;	
-				}
-				img {    
-					overflow: visible;		
-					filter: brightness(100%);
-				}
+		.technicalSvg {
+    > span {
+        position: relative; /* Change position to relative */
+         /* Ensure it takes up the necessary space */
+        overflow: auto; /* Hide overflow */
+        height: auto; /* Reset height */
+        z-index: -1;
+    }
+
+    img {
+        /* Ensure it behaves as a block element */
+        max-width: 100%; /* Ensure the image doesn't exceed the container width */
+        margin-top: 30px; /* Adjust margin-top as needed to bring the image closer to text */
+        filter: brightness(100%);
+		object-fit: fill;
+    }
 			}
 		}
 	}
