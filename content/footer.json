@@ -32,17 +32,25 @@
 
 	"social": [
 		
-		{
-			"url": "https://dev.to/andrewnelson",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/company/blockcityfi/",
-			"icon": "linkedin"
-		},
-		{
-			"url": "https://github.com/Blockcityfinance",
-			"icon": "github"
-		}
-	]
+		
+    {
+        "url": "https://discord.gg/AkQ59UFxRC",
+        "icon": "discord"
+    },
+    {
+        "url": "https://twitter.com/BlockCityFi",
+        "icon": "x"
+    },
+   
+    {
+        "url": "https://www.linkedin.com/company/blockcityfi/",
+        "icon": "linkedin"
+    },
+    {
+        "url": "https://github.com/Blockcityfinance",
+        "icon": "github"
+    }
+]
+
+	
 }

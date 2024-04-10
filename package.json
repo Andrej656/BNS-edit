@@ -9,6 +9,7 @@
 	"dependencies": {
 		"@fontsource/fira-code": "^4.5.12",
 		"@fontsource/inter": "^4.5.14",
+		"@fortawesome/fontawesome-free": "^6.5.2",
 		"@uiw/react-markdown-preview": "^4.1.7",
 		"@vercel/analytics": "^0.1.6",
 		"babel-plugin-macros": "^3.1.0",

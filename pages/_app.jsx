@@ -24,6 +24,8 @@ import '../node_modules/devicon/devicon.min.css'
 // Global css
 import '../styles/css/variables.css'
 import '../styles/css/global.css'
+// Free icons Fontawesome
+import '@fortawesome/fontawesome-free/css/all.css';
 
 /**
  * _app.jsx
