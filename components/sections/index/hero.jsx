@@ -74,6 +74,7 @@ export default function Hero() {
 				</section>
 			</Container>
 			<HeroBg theme="bg-color-1" />
+			<canvas id="gradient-canvas" className={''} data-transition-in></canvas>
 		</Section>
 	)
 }
