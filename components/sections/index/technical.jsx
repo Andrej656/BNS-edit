@@ -64,7 +64,7 @@ export default function Technical() {
 						/>	
 						</div>						
                  <div className={`${about.image} ${about.technicalSvg}`}>
-						<Image src="/img/stacksbtc2.svg" width={800} height={1300} alt="" />
+						<Image src="/img/frame.svg" width={800} height={1300} alt="" />
 					</div>
 
 
