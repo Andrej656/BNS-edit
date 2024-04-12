@@ -1,155 +1,132 @@
 @import '../../scss/mixins';
 
+// Define colors
+$orange: #FFA500;
+$blue: #0000FF;
+
 // Section
 .section {
 
-	.content {
-		$padding: 4rem;
-		position: relative;
-		display: flex;
-		flex-direction: row;
-		gap: 1rem;
+  .content {
+    $padding: 4rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 
-		> div {
-			padding: 7;
-		}
-
-		h3 {
-			position: relative;
-			color: var(--primary);
-
-			// &:before {
-			// 	content: '';
-			// 	position: absolute;
-			// 	left: calc( $padding * -1 );
-			// 	width: 18px;
-			// 	aspect-ratio: 1/1;
-			// 	background-color: var(--primary-bright);
-			// 	border-radius: 99rem;
-			// 	border: 3px solid var(--background);
-			// 	top: 50%;
-			// 	transform: translate(-50%, -50%);
-			// }
-
-			// &:after {
-			// 	content: '';
-			// 	position: absolute;
-			// 	left: calc( $padding * -1 );
-			// 	width: 9px;
-			// 	aspect-ratio: 1/1;
-			// 	background-color: var(--background);
-			// 	border-radius: 99rem;
-			// 	top: 50%;
-			// 	transform: translate(-50%, -50%);
-			// }
-		}
-
-		.container {
-			display: flex;
-			flex-direction: column;
-			gap: var(--size-1x);
-			border: 1px solid var(--primary-dark);
-			border-radius: 4rem;
-			background: var(--background-dim2);
-			box-shadow: 10 4 30px var(--background);
-			overflow: hidden;
-
-			padding: var(--padding);
-			--padding: 4rem;
-			--padding-left: var(--padding);
-			--padding-top: var(--padding);
-			--padding-right: var(--padding);
-			--padding-bottom: var(--padding);
-
-			&:not(:last-of-type) {
-				margin-bottom: var(--size-1x);
-			}
-		}
-
-		.copy {
-			flex-basis: calc(60% + 1px);
-			flex-grow: 1;
-			flex-shrink: 1;
-		}
-
-		.icon {
-			padding: 0.7rem;
-			display: flex;
-			align-items: center;
-			background: var(--primary-dark);
-			width: fit-content;
-			border-radius: 0.5rem;
-			aspect-ratio: 1;
-
-			svg {
-				height: 1.3rem;
-				color: var(--primary);
-
-				path {
-					fill: url(#fa-gradient) #fff;
-				}
-			}
-
-
-		}
-		
-		// Columns
-		.image {
-			flex-basis: 70%;
-			flex-grow: 10;
-			flex-shrink: -3;
-			position: relative;
-
-			img {
-				height: 100%;
-				width: auto;
-				aspect-ratio: auto;
-				object-fit: cover;
-				border-radius: 2rem;
-			}
-
-		.technicalSvg {
-    > span {
-        position: absolute; /* Change position to relative */
-        overflow: scroll; /* Hide overflow */
-        height: auto; /* Reset height */
-        z-index: -1;
+    > div {
+      padding: 7;
     }
 
-   
-			}
-		}
-	}
+    h1,h2,h3,h4 {
+      position: relative;
+      background: linear-gradient(to right, $orange, $blue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: var(--size-1x);
+      border: 1px solid var(--primary-dark);
+      border-radius: 4rem;
+      background: var(--background-dim2);
+      box-shadow: 10 4 30px var(--background);
+      overflow: hidden;
+
+      padding: var(--padding);
+      --padding: 4rem;
+      --padding-left: var(--padding);
+      --padding-top: var(--padding);
+      --padding-right: var(--padding);
+      --padding-bottom: var(--padding);
+
+      &:not(:last-of-type) {
+        margin-bottom: var(--size-1x);
+      }
+    }
+
+    .copy {
+      flex-basis: calc(60% + 1px);
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+
+    .icon {
+      padding: 0.7rem;
+      display: flex;
+      align-items: center;
+      background: var(--primary-dark);
+      width: fit-content;
+      border-radius: 0.5rem;
+      aspect-ratio: 1;
+
+      svg {
+        height: 1.3rem;
+        color: var(--primary);
+
+        path {
+          fill: url(#fa-gradient) #fff;
+        }
+      }
+    }
+
+    // Columns
+    .image {
+      flex-basis: 70%;
+      flex-grow: 10;
+      flex-shrink: -3;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: auto;
+        aspect-ratio: auto;
+        object-fit: cover;
+        border-radius: 2rem;
+      }
+
+      .technicalSvg {
+        > span {
+          position: absolute; /* Change position to relative */
+          overflow: scroll; /* Hide overflow */
+          height: auto; /* Reset height */
+          z-index: -1;
+        }
+      }
+    }
+  }
 }
 
 @include media($max: $mobile) {
-	.section {
-		.content {
-			flex-direction: column;
+  .section {
+    .content {
+      flex-direction: column;
 
-			> div {
-				flex-basis: 100% !important;
-			}
+      > div {
+        flex-basis: 100% !important;
+      }
 
-			.container {
-				padding: 2rem 1.25rem;
-			}
+      .container {
+        padding: 2rem 1.25rem;
+      }
 
-			.image {
-				padding: 1rem;
-				&.technicalSvg {
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-					height: 20%;
-					z-index: -1;
-				}
-			}
+      .image {
+        padding: 1rem;
+        &.technicalSvg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 20%;
+          z-index: -1;
+        }
+      }
 
-			.copy {
-				padding: 0;
-			}
-		}
-	}
+      .copy {
+        padding: 0;
+      }
+    }
+  }
 }
