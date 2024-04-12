@@ -15,8 +15,8 @@ export default function FeaturedProjects() {
 		<Section classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Invest Smart, Earn Passively"
-					preTitle="Innovation is returning to Bitcoin"
+					title="Invest Smart = Earn Passively"
+					preTitle=""
 					subTitle="Permissionless & Non-Custodial"
 				/> 				{
 				content.map( (data, index) => {

@@ -36,12 +36,15 @@ const methods = [
 export default function About() {
     return (
         <Section classProp={about.section}>
-            <Container spacing={['verticalXXXLrg']} style={{ fontFamily: 'CalibreLight' }}>
-                <SectionTitle
-                    title="About Us"
-                    preTitle="BLOCKCITY"
-                    subTitle="₿lockCity is a decentralized protocol that supercharges your digital assets by anchoring them to Bitcoin layer-1 BTC or layer-2 STX. This dual functionality empowers your assets to generate monthly passive income just by holding them in a non-custodial wallet. It harnesses the potential of decentralized finance through stacking pools, lending pools, layer-2 smart contracts and utilizing the Proof of Transfer (POX) consensus mechanism"
-                />
+          <Container spacing={['verticalXXXLrg']} style={{ fontFamily: 'CalibreLight' }}>
+  <SectionTitle
+    title="About ₿lockCity"
+    preTitle=""
+    subTitle="A decentralized protocol that supercharges your digital assets by anchoring them to Bitcoin layer-1 BTC or layer-2 STX. This dual functionality empowers your assets to generate monthly passive income just by holding them in a non-custodial wallet. It harnesses the potential of decentralized finance through stacking pools, lending pools, layer-2 smart contracts and utilizing the Proof of Transfer (POX) consensus mechanism"
+    style={{ fontWeight: '300' }} 
+  />
+
+
                 <section className={about.content}>
                     <div className={about.image}>
                         <img src="/img/bitcoin.jpg" alt="Bitcoin"/>
@@ -53,7 +56,7 @@ export default function About() {
                             containerClass={about.container}
                             iconClass={about.icon}
                             icon={['fat', 'ear-listen']}
-                            copy="We are committed to inclusivity. Every creator and collector utilizing our platform, regardless of their portfolio size, has the opportunity to earn a share of the protocol's profits based on their total value locked (TVL) contribution"
+                            copy="We are committed to inclusivity. Every creator and collector utilizing our platformaa, regardless of their portfolio size, has the opportunity to earn a share of the protocol's profits based on their total value locked (TVL) contribution"
                         />
                         <div className="">
                             <BadgesBlock

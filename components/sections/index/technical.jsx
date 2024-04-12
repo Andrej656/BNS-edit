@@ -35,7 +35,7 @@ export default function Technical() {
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Decentralized Peg"
+							title="DECENTRALIZED PEG"
 							icon={[ 'fat', 'chart-network' ]}
 							copy="At its heart, ₿lockCity presents a pioneering approach. It enables digital assets to be pegged to Bitcoin's foundational layer-1 (BTC) or layer-2 (STX). This dual capability ensures that assets benefit from the unparalleled security of Bitcoin while also leveraging the flexibility and efficiency of the Stacks layer, ensuring transaction finality through the Bitcoin network.
 "
@@ -43,7 +43,7 @@ export default function Technical() {
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
-							title="On-chain IV (Intrinsic Value)" 
+							title="ON-CHAIN IV (INTRISTIC VALUE)" 
 							copy="Digital assets on our protocol are endowed with a decentralized market value signified by on-chain IV that is beyond manipulation by any user or the protocol itself, governed solely by Bitcoin layer-1. This mechanism offers a distinct advantage: as the value of Bitcoin increases, so does the market value & borrowing power of your digital asset."
 							list={software}
 							block="software" 
@@ -53,7 +53,7 @@ export default function Technical() {
 							headerIcon={about.icon} 
 						/>
 						<BadgesBlock 
-							title="On-Chain Credit Line" 
+							title="ON-CHAIN INTRISTIC VALUE" 
 							copy="₿lockCity is solidifying its position as the decentralized layer for online passive income. By merely holding assets enables you to sustain a long Bitcoin position and conveniently hedge it by borrowing against your asset at a 0% interest rate. We are poised to set a new standard in Bitcoin asset utilization and yield generation."
 							list={tech} 
 							block="tech"
