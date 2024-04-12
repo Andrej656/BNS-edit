@@ -17,7 +17,7 @@ export default function FeaturedProjects() {
 				<SectionTitle
 					title="Invest Smart, Earn Passively"
 					preTitle="Innovation is returning to Bitcoin"
-					subTitle="Powered by Bitcoin network."
+					subTitle="Permissionless & Non-Custodial"
 				/> 				{
 				content.map( (data, index) => {
 					return (
