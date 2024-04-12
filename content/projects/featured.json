@@ -8,7 +8,7 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "portfolio",	"hover": "left", 	"h": "200", "w": "330", "url": "/img/stacks.png" }
+			{ "key": "portfolio",	"hover": "left", 	"h": "178", "w": "286", "url": "/img/stacks.png" }
 		],
 	    "stack": [
 			{ "key": "brc-20-stacks", "name": "BRC-20", "type": "crypto" },

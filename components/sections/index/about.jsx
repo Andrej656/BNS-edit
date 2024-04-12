@@ -36,22 +36,24 @@ const methods = [
 export default function About() {
     return (
         <Section classProp={about.section}>
-          <Container spacing={['verticalXXXLrg']} style={{ fontFamily: 'CalibreLight' }}>
-  <SectionTitle
-    title="About ₿lockCity"
-    preTitle=""
-    subTitle="A decentralized protocol that supercharges your digital assets by anchoring them to Bitcoin layer-1 BTC or layer-2 STX. This dual functionality empowers your assets to generate monthly passive income just by holding them in a non-custodial wallet. It harnesses the potential of decentralized finance through stacking pools, lending pools, layer-2 smart contracts and utilizing the Proof of Transfer (POX) consensus mechanism"
-    style={{ fontWeight: '300' }} 
-  />
-
-
+            <Container spacing={['verticalXXXLrg']} style={{ fontFamily: 'CalibreLight' }}>
+                <SectionTitle
+                    title={
+                        <h2 style={{ background: 'linear-gradient(to right, orange, blue)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+                            About ₿lockCity
+                        </h2>
+                    }
+                    preTitle=""
+                    subTitle="A decentralized protocol that supercharges your digital assets by anchoring them to Bitcoin layer-1 BTC or layer-2 STX. This dual functionality empowers your assets to generate monthly passive income just by holding them in a non-custodial wallet. It harnesses the potential of decentralized finance through stacking pools, lending pools, layer-2 smart contracts and utilizing the Proof of Transfer (POX) consensus mechanism"
+                    style={{ fontWeight: '300' }}
+                />
                 <section className={about.content}>
                     <div className={about.image}>
-                        <img src="/img/bitcoin.jpg" alt="Bitcoin"/>
+                        <img src="/img/bitcoin.jpg" alt="Bitcoin" />
                         {/* <Image src="/img/family-photo.jpg" width={Permissionless & Non-Custodial600} height={800}/> */}
                     </div>
                     <div className={about.copy}>
-                        <CopyBlock 
+                        <CopyBlock
                             title="COMMUNITY DRIVEN"
                             containerClass={about.container}
                             iconClass={about.icon}
@@ -60,11 +62,11 @@ export default function About() {
                         />
                         <div className="">
                             <BadgesBlock
-                                title="PROTOCOL SECURITY" 
+                                title="PROTOCOL SECURITY"
                                 containerClass={about.container}
-                                list={methods} 
+                                list={methods}
                                 fullContainer="fullContainer"
-                                block="methods" 
+                                block="methods"
                                 icon="fingerprint"
                                 copy="We are committed to establishing a platform that offers security and benefits to all users. ₿lockCity operates on the foundation of Bitcoin layer-2 and is safeguarded by Bitcoin layer-1, thereby guaranteeing the protection of both the assets and the associated passive income."
                                 headerIcon={about.icon}
