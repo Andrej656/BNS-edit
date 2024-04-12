@@ -34,7 +34,7 @@ img {
 
 button.button {
 	cursor: pointer;
-	font-family: var(--font-accent);
+	font-family: var(--font-sans);
 	font-size: 1rem;
 	font-weight: 700;
 	padding: .75rem 2.5rem;
@@ -94,7 +94,7 @@ p {
 	letter-spacing: -.02rem;
 
 	&.subtitle {
-		font-family: var(--font-accent);
+		font-family: var(--font-sans);
 		font-size: var(--font-r-s);
 		font-weight: 600;
 		letter-spacing: 0;

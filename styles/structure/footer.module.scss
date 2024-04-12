@@ -28,39 +28,12 @@
     p {
         font-size: .875rem;
     }
-
-    .sections {
-        $gap: 2rem;
-        display: flex;
-        flex-direction: row;
-        gap: $gap;
-
-        svg {
-            height: .875rem;
-            vertical-align: -0.1rem;
-            margin-left: .125rem;
-        }
-
-        ul {
-            &:nth-of-type(1) {
-                width: calc( var(--grid-32) * 12 - $gap );
-            }
-
-            &:nth-of-type(2) {
-                width: calc( var(--grid-32) * 12 - $gap );
-            }
-
-            li {
-                overflow-wrap: break-word;
-                margin-bottom: var(--size-2-);
-            }
-        }
-    }
-
-   .socialList {
+/* Default styles for social list icons */
+.socialList {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 0rem;
+    justify-content: flex-start; /* Align items to the start of the flex container */
 
     i {
         font-size: 2rem; /* Adjust the font size as needed */
@@ -69,6 +42,35 @@
     svg {
         height: 2rem;
     }
+}
+
+/* Styles for larger screens (e.g., desktop) */
+@media (min-width: 768px) {
+    .socialList {
+        justify-content: flex-end; /* Align items to the end of the flex container */
+        align-items: flex-end; /* Align items to the bottom of the flex container */
+        position: absolute; /* Position the icons absolutely within the footer */
+        bottom: 0; /* Position the icons at the bottom */
+        right: 0; /* Position the icons at the right */
+    }
+}
+
+
+   .socialList {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    justify-content: right; /* Align items to the top of the flex container */
+
+    i {
+        font-size: 1rem; /* Adjust the font size as needed */
+    }
+
+    svg {
+        height: 5rem;
+    }
+}
+
 
     @media (max-width: 768px) {
         /* Change flex-direction to row and remove gap */
@@ -77,7 +79,7 @@
 
         /* Adjust margin between icons */
         i {
-            margin-left: 1rem; /* Set margin-left to create spacing between icons */
+            margin-left: 7rem; /* Set margin-left to create spacing between icons */
         }
     }
 }
@@ -85,7 +87,7 @@
 
         
 
-    }
+    
 
     /**
         Why the heck isn't this working?
@@ -136,7 +138,7 @@
         .sections {
             flex-direction: column-reverse;
             text-align: center;
-            gap: 3rem;
+            gap: 1rem;
 
             ul {
                 width: 100% !important; // :nth-of-type specifity is bad
