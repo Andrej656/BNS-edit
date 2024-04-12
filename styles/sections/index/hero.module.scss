@@ -25,6 +25,7 @@
 		font-family: var(--font-sans);
 		font-size: 5rem;
 		margin: 0;
+		z-index: 300000;
 	}
 	
 	.primaryDim {
@@ -84,6 +85,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
+	z-index: -3000;
 	
 	.svg_background {
 		position: absolute;
