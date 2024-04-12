@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+ 
 
     > div {
         display: flex;
@@ -26,7 +27,7 @@
     }
 
     p {
-        font-size: .875rem;
+        font-size: 0.8rem;
     }
 /* Default styles for social list icons */
 .socialList {
@@ -40,7 +41,7 @@
     }
 
     svg {
-        height: 2rem;
+        height: 4rem;
     }
 }
 
