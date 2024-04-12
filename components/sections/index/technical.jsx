@@ -30,20 +30,21 @@ export default function Technical() {
 				<SectionTitle
 					title="Innovative design"
 					preTitle=""
-					subTitle="Unique marketplace"
+					subTitle="Powered by ₿itcoin Network"
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Bitcoin assets"
+							title="Decentralized Peg"
 							icon={[ 'fat', 'chart-network' ]}
-							copy="At its heart, ₿lockCity presents a pioneering approach. It enables digital assets to be pegged to Bitcoin's foundational layer-1 (BTC) or layer-2 (STX). This dual capability ensures that assets benefit from the unparalleled security of Bitcoin while also leveraging the flexibility and efficiency of the Stacks layer, ensuring transaction finality through the Bitcoin network.."
+							copy="At its heart, ₿lockCity presents a pioneering approach. It enables digital assets to be pegged to Bitcoin's foundational layer-1 (BTC) or layer-2 (STX). This dual capability ensures that assets benefit from the unparalleled security of Bitcoin while also leveraging the flexibility and efficiency of the Stacks layer, ensuring transaction finality through the Bitcoin network.
+"
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
 						<BadgesBlock 
 							title="On-chain IV (Intrinsic Value)" 
-							copy="Digital assets on our protocol are endowed with a decentralized market value signified by decentralized IV that is beyond manipulation by any user or the protocol itself, governed solely by Bitcoin layer-1. This mechanism offers a distinct advantage: as the value of Bitcoin increases, so does the market value & borrowing power of your digital asset."
+							copy="Digital assets on our protocol are endowed with a decentralized market value signified by on-chain IV that is beyond manipulation by any user or the protocol itself, governed solely by Bitcoin layer-1. This mechanism offers a distinct advantage: as the value of Bitcoin increases, so does the market value & borrowing power of your digital asset."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -52,19 +53,21 @@ export default function Technical() {
 							headerIcon={about.icon} 
 						/>
 						<BadgesBlock 
-							title="Passive income layer of internet" 
-							copy="BlockCity is solidifying its position as the decentralized layer for online passive income. By merely holding assets enables you to sustain a long Bitcoin position and conveniently hedge it by borrowing against your asset at a 0% interest rate. We are poised to set a new standard in Bitcoin asset utilization and yield generation."
+							title="On-Chain Credit Line" 
+							copy="₿lockCity is solidifying its position as the decentralized layer for online passive income. By merely holding assets enables you to sustain a long Bitcoin position and conveniently hedge it by borrowing against your asset at a 0% interest rate. We are poised to set a new standard in Bitcoin asset utilization and yield generation."
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
 							icon="laptop-code"
 							containerClass={about.container}
 							headerIcon={about.icon} 
-						/>							
+						/>	
+						</div>						
+                 <div className={`${about.image} ${about.technicalSvg}`}>
+						<Image src="/img/stacksbtc2.svg" width={800} height={1300} alt="" />
 					</div>
-					<div className={`${about.image} ${about.technicalSvg}`}>
-						<Image src="/img/dataism-24.svg" width={500} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b" />
-					</div>
+
+
 				</section>	
 			</Container>
 			{/* <SectionGridBg gridSize={4}/> */}
