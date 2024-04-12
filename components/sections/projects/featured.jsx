@@ -15,7 +15,7 @@ export default function FeaturedProjects() {
 		<Section classProp={css.hasBg}>	
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Invest Smart And Earn Passively"
+					title="Plan ₿"
 					preTitle=""
 					subTitle="Permissionless & Non-Custodial"
 				/> 				{
