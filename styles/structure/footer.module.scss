@@ -75,11 +75,12 @@
     @media (max-width: 768px) {
         /* Change flex-direction to row and remove gap */
         flex-direction: row;
-        gap: 0;
+        gap: 2;
 
         /* Adjust margin between icons */
         i {
-            margin-left: 7rem; /* Set margin-left to create spacing between icons */
+            margin-left: 0rem; /* Set margin-left to create spacing between icons */
+            margin-top: 4rem;
         }
     }
 }
