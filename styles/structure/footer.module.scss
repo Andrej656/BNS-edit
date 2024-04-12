@@ -1,10 +1,9 @@
-@import '../scss/_mixins';
-
 .container {
     display: flex;
     flex-direction: column;
-    position: relative;
- 
+    align-items: flex-start; /* Align items to the start of the flex container */
+    justify-content: center; /* Center items vertically */
+    text-align: left; /* Align text to the left */
 
     > div {
         display: flex;
@@ -18,7 +17,7 @@
 
     a {
         font-size: .875rem;
-        font-weight: 600;
+        font-weight: 800;
         color: var(--primary);
 
         &:hover {
@@ -27,44 +26,19 @@
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
-/* Default styles for social list icons */
+}
+
 .socialList {
     display: flex;
     flex-direction: row;
-    gap: 0rem;
-    justify-content: flex-start; /* Align items to the start of the flex container */
+    gap: 1rem; /* Adjust the spacing between icons */
+    align-items: center; /* Align items vertically */
+    justify-content: flex-end; /* Align social icons to the end of the container */
 
     i {
-        font-size: 2rem; /* Adjust the font size as needed */
-    }
-
-    svg {
-        height: 4rem;
-    }
-}
-
-/* Styles for larger screens (e.g., desktop) */
-@media (min-width: 768px) {
-    .socialList {
-        justify-content: flex-end; /* Align items to the end of the flex container */
-        align-items: flex-end; /* Align items to the bottom of the flex container */
-        position: absolute; /* Position the icons absolutely within the footer */
-        bottom: 0; /* Position the icons at the bottom */
-        right: 0; /* Position the icons at the right */
-    }
-}
-
-
-   .socialList {
-    display: flex;
-    flex-direction: row;
-    gap: 0rem;
-    justify-content: right; /* Align items to the top of the flex container */
-
-    i {
-        font-size: 1rem; /* Adjust the font size as needed */
+        font-size: 1.7rem; /* Adjust the font size as needed */
     }
 
     svg {
@@ -72,83 +46,23 @@
     }
 }
 
-
-    @media (max-width: 768px) {
-        /* Change flex-direction to row and remove gap */
-        flex-direction: row;
-        gap: 2;
-
-        /* Adjust margin between icons */
-        i {
-            margin-left: 0rem; /* Set margin-left to create spacing between icons */
-            margin-top: 4rem;
-        }
+/* Styles for larger screens (e.g., desktop) */
+@media (min-width: 768px) {
+    .socialList {
+        position: relative; /* Remove absolute positioning */
+        justify-content: flex-end; /* Align social icons to the end of the container */
+        align-items: center; /* Align social icons vertically */
+        bottom: auto; /* Remove bottom position */
+        right: auto; /* Remove right position */
     }
 }
 
-
-        
-
-    
-
-    /**
-        Why the heck isn't this working?
-
-        Get it working to get cool hover effect on steal this theme section!
-    **/
-    .svg-inline--fa.fa-code-branch {
-        margin-left: 1rem;
-
-        .fa-secondary {
-            fill: #a371f7;
-            opacity: 1;
-        }
-    }
-
-    .github {
-        * {
-            font-size: 1rem;
-            font-family: var(--font-accent);
-            font-weight: 600;
-            letter-spacing: -.01rem;
-        }
-
-        > a {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: fit-content;
-            margin: 0 auto;
-            gap: var(--size-2-);
-            filter: grayscale(1);
-
-            &:hover {
-                filter: grayscale(0);
-            }
-
-            ul {
-                display: flex;
-                flex-direction: row;
-                gap: 1rem;
-            }
-        }
-    }
-
-
-@include media($max: $mobile) {
+/* Additional styles for smaller screens */
+@media (max-width: 768px) {
     .container {
-        .sections {
-            flex-direction: column-reverse;
-            text-align: center;
-            gap: 1rem;
-
-            ul {
-                width: 100% !important; // :nth-of-type specifity is bad
-            }
-
-            .socialList {
-                justify-content: center;
-            }
+        /* Adjust spacing between icons */
+        .socialList i {
+            margin-left: 1rem;
         }
     }
 }

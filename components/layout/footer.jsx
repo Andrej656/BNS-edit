@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from 'react';
 import Container from '../structure/container';
 import css from '../../styles/structure/footer.module.scss'; // Make sure the correct CSS module is imported
@@ -42,7 +43,9 @@ export default function Footer() {
                             );
                         })}
                     </ul>
-                   
+
+                  
+
                     <ul className={css.socialList}> {/* Make sure correct CSS class is used here */}
                         <li>
                             <h4></h4>
@@ -51,11 +54,8 @@ export default function Footer() {
                             return (
                                 <li key={index}>
                                     <a href={url} rel="noreferrer" target="_blank">
-                                        <i className={`fab fa-${icon}`}style={{ height: '4rem', width: '4rem' }} /> {/* Make sure Font Awesome class is used here */}
+                                        <i className={`fab fa-${icon}`} style={{ height: '4rem', width: '4rem' }} /> {/* Make sure Font Awesome class is used here */}
                                     </a>
-									 {/* Logo */}
-									 
-           
                                 </li>
                             );
                         })}

@@ -28,7 +28,7 @@ export default function Technical() {
 		<Section classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Innovative design"
+					title="Innovative Design"
 					preTitle=""
 					subTitle="Powered by ₿itcoin Network"
 				/>
@@ -53,7 +53,7 @@ export default function Technical() {
 							headerIcon={about.icon} 
 						/>
 						<BadgesBlock 
-							title="ON-CHAIN INTRISTIC VALUE" 
+							title="ON-CHAIN INTRINSIC VALUE" 
 							copy="₿lockCity is solidifying its position as the decentralized layer for online passive income. By merely holding assets enables you to sustain a long Bitcoin position and conveniently hedge it by borrowing against your asset at a 0% interest rate. We are poised to set a new standard in Bitcoin asset utilization and yield generation."
 							list={tech} 
 							block="tech"

@@ -1,25 +1,25 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Docs",
-			"link": "https://blockcityfi.gitbook.io/docs",
-			"note": "Documentation outlining the protocol's functionalities and usage guidelines."
+			"person": "Documentation",
+			"link": "https://blockcityfi.gitbook.io/docs"
+			
 		},
 		{ 
 			"person": "FAQ",
-			"link": "https://blockcityfi.substack.com/p/faq",
-			"note": "Explore our FAQ section for answers to common queries about the protocol."
+			"link": "https://blockcityfi.substack.com/p/faq"
+			
 		},
 		{ 
 			"person":"Blog", 
-			"link": "https://blockcityfi.substack.com/t/blogs",
-			"note": "Check out our latest blog post for insights into the protocol's features and updates."
+			"link": "https://blockcityfi.substack.com/t/blogs"
+			
 		},
 		{ 
 			"person": "Join community",
-			"link": "https://blockcityfi.substack.com/p/join-the-community",
-			"note": "Join our vibrant community to engage with like-minded individuals."
+			"link": "https://blockcityfi.substack.com/p/join-the-community"
 		}
+			
 	],
 
 	"links": [
