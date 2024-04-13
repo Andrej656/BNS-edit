@@ -5,7 +5,8 @@
     justify-content: center; /* Center items vertically */
     text-align: left; /* Align text to the left */
     overflow: hidden; /* Ensure the gradient doesn't overflow */
-    
+    background: linear-gradient(to bottom, transparent, #df9d42, #5546ff, transparent); /* Use linear gradient with transparent start */
+
     > div {
         display: flex;
         flex-direction: column;
@@ -22,7 +23,7 @@
         font-size: 1.2rem;
         font-weight: 600;
         color: var(--primary);
-        margin-bottom: 2rem;
+        margin-bottom: -1rem;
        
         &:hover {
             color: var(--primary-bright);
