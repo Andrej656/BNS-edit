@@ -46,27 +46,29 @@
     }
 
     svg {
-        height: 5rem;
+        height: 4rem;
     }
 }
 
-/* Styles for larger screens (e.g., desktop) */
-@media (min-width: 768px) {
-    .socialList {
-        position: relative; /* Remove absolute positioning */
-        justify-content: flex-end; /* Align social icons to the end of the container */
-        align-items: center; /* Align social icons vertically */
-        bottom: auto; /* Remove bottom position */
-        right: auto; /* Remove right position */
-    }
-}
+
 
 /* Additional styles for smaller screens */
 @media (max-width: 768px) {
     .container {
-        /* Adjust spacing between icons */
-        .socialList i {
-            margin-left: 1rem;
-        }
+        text-align: center; /* Align text to center */
+        align-items: center; /* Align items to the center of the flex container */
+        gap: 0rem; /* Adjust the gap between sections */
+        margin-bottom: 5rem;
+    }
+
+    .socialList {
+        display: flex;
+        flex-direction: row; /* Align icons horizontally */
+        align-items: center; /* Align social icons vertically */
+        justify-content: center; /* Align social icons horizontally */
+        gap: 1rem; /* Adjust the gap between icons */
+        margin-top: 5rem;
     }
 }
+
+
