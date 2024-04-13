@@ -13,17 +13,9 @@ export default function FeaturedProjects() {
         <Section classProp={css.hasBg}>
             <Container spacing={'verticalXXXXLrg'}>
                 <SectionTitle
-                    title={
-                        <h2 style={{ background: 'linear-gradient(to right, orange, blue)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                            Plan ₿
-                        </h2>
-                    }
+                    title="Plan ₿"
                     preTitle=""
-                    subTitle={
-                        <h3 style={{ background: 'linear-gradient(to right, orange, blue)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                            Permissionless & Non-Custodial
-                        </h3>
-                    }
+                    subTitle=" Permissionless & Non-Custodial"
                 />
                 {content.map((data, index) => {
                     return (

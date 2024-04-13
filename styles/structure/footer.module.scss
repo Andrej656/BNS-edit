@@ -5,7 +5,7 @@
     justify-content: center; /* Center items vertically */
     text-align: left; /* Align text to the left */
     overflow: hidden; /* Ensure the gradient doesn't overflow */
-    background-image: linear-gradient(to top, #5546ff, #5057d1, #df9931, #f7931a);
+    
     > div {
         display: flex;
         flex-direction: column;
@@ -15,9 +15,7 @@
     h4 {
         margin-bottom: 2rem;
         z-index: 3;
-        background-image: linear-gradient(to right, #5546ff, #5057d1, #df9931, #f7931a); /* Gradient background for text */
-        -webkit-background-clip: text; /* Apply gradient to text */
-        -webkit-text-fill-color: transparent; /* Hide text fill color */
+       
     }
 
     a {
@@ -25,8 +23,7 @@
         font-weight: 600;
         color: var(--primary);
         margin-bottom: 2rem;
-        color: black;
-
+       
         &:hover {
             color: var(--primary-bright);
         }

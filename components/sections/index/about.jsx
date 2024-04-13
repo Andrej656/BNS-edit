@@ -38,11 +38,7 @@ export default function About() {
         <Section classProp={about.section}>
             <Container spacing={['verticalXXXLrg']} style={{ fontFamily: 'CalibreLight' }}>
                 <SectionTitle
-                    title={
-                        <h2 style={{ background: 'linear-gradient(to right, orange, blue)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                            About ₿lockCity
-                        </h2>
-                    }
+                    title="About ₿lockCity"
                     preTitle=""
                     subTitle="A decentralized protocol that supercharges your digital assets by anchoring them to Bitcoin layer-1 BTC or layer-2 STX. This dual functionality empowers your assets to generate monthly passive income just by holding them in a non-custodial wallet. It harnesses the potential of decentralized finance through stacking pools, lending pools, layer-2 smart contracts and utilizing the Proof of Transfer (POX) consensus mechanism"
                     style={{ fontWeight: '300' }}

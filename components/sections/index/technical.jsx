@@ -28,17 +28,10 @@ export default function Technical() {
         <Section classProp={`${about.section} borderBottom`}>
             <Container spacing={['verticalXXXLrg']}>
                 <SectionTitle
-                    title={
-                        <h2 style={{ background: 'linear-gradient(to right, orange, blue)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                            Innovative Design
-                        </h2>
-                    }
+                    title="Innovative Design"
+                    
                     preTitle=""
-                    subTitle={
-                        <h3 style={{ background: 'linear-gradient(to right, orange, blue)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                            Powered by ₿itcoin Network
-                        </h3>
-                    }
+                    subTitle="Powered by ₿itcoin Network"
                 />
                 <section className={`${about.content} ${about.container}`}>
                     <div className={about.copy}>
