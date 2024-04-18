@@ -1,5 +1,6 @@
 // Default core packages
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script'; // Import next/script
 
 /**
  * Load custom scripts in <Head> including Google Analytics
@@ -19,23 +20,23 @@ export default class MyDocument extends Document {
           <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
-
-          {/* Google Analytics tracking code */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLX8MZDY1Y"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-LLX8MZDY1Y');
-              `,
-            }}
-          />
         </Head>
         <body>
           <Main />
           <NextScript />
+          {/* Use next/script for Google Analytics */}
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=G-LLX8MZDY1Y`}
+            strategy="afterInteractive" // Load the script after the page is interactive
+          />
+          <Script id="ga-script" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-LLX8MZDY1Y');
+            `}
+          </Script>
         </body>
       </Html>
     );
