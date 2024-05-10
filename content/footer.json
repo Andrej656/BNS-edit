@@ -2,30 +2,23 @@
 	"acknowledgments": [
 		{ 
 			"person": "Documentation",
-			"link": "https://blockcityfi.gitbook.io/docs"
+			"link": " https://docs.bns.xyz/"
 			
 		},
-		{ 
-			"person": "FAQ",
-			"link": "https://blockcityfi.substack.com/p/faq"
+	
 			
-		},
-		{ 
-			"person":"Blog", 
-			"link": "https://blockcityfi.substack.com/t/blogs"
-			
-		},
+		
 		{ 
 			"person": "Join community",
-			"link": "https://blockcityfi.substack.com/p/join-the-community"
+			"link": "https://bns-community.gitbook.io/bns-community"
 		}
 			
 	],
 
 	"links": [
 		{ 
-			"person": "Blockcity",
-			"link": "https://blockcityfi.substack.com/p/introduction",
+			"person": "BNS",
+			"link": "https://bns-community.gitbook.io/bns-community",
 			"note": "Want to know more?"
 		}
 	],
@@ -34,20 +27,17 @@
 		
 		
     {
-        "url": "https://discord.gg/AkQ59UFxRC",
+        "url": " https://discord.gg/eqt2r8BQJ8",
         "icon": "discord"
     },
     {
-        "url": "https://twitter.com/BlockCityFi",
+        "url": "https://twitter.com/bns_community",
         "icon": "x"
     },
    
+   
     {
-        "url": "https://www.linkedin.com/company/blockcityfi/",
-        "icon": "linkedin"
-    },
-    {
-        "url": "https://github.com/Blockcityfinance",
+        "url": "https://github.com/BNS-upgrade",
         "icon": "github"
     }
 ]

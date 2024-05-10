@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "ORDINALS WITH PASSIVE YIELDS",
-		"end": "RUNES WITH PASSIVE YIELDS",
+		"start": "BNS Renewals",
+		"end": "BNS with yields",
 		"speed": 40,
 		"deletionSpeed": 60,
 		"wrapper": "h2",
@@ -11,20 +11,20 @@
 	},
 
 	"header": {
-		"name": "₿itcoin Protocol",
-		"usp": " With Passive Income"
+		"name": "₿itcoin Naming System",
+		"usp": " Managment Platform "
 	},
 
-	"paragraph": "A decentralized platform which unleashes passive income streams for digital assets (Runes, Ordinals, BNS, etc)",
+	"paragraph": "Start your journey with BNS on BNS One, the all-in-one platform for registering, renewing, making/accepting offers and managing your BNS assets.",
 	"buttons": {
 		"primary": {
 			"title": "Join Waitlist",
-			"url": "https://blockcityfi.substack.com/p/join-the-waitlist",
+			"url": "https://twitter.com/bns_community",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "Explore Now",
-			"url": "https://blockcityfi.substack.com/t/announcements",
+			"url": "https://btc.us/",
 			"leaveSite": "true"
 		}
 	}

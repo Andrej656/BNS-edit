@@ -36,15 +36,17 @@ export default function Technical() {
                 <section className={`${about.content} ${about.container}`}>
                     <div className={about.copy}>
                         <CopyBlock
-                            title="DECENTRALIZED PEG"
+                            title="BNS Renewals"
                             icon={['fat', 'chart-network']}
-                            copy="At its heart, ₿lockCity presents a pioneering approach. It enables digital assets to be pegged to Bitcoin's foundational layer-1 (BTC) or layer-2 (STX). This dual capability ensures that assets benefit from the unparalleled security of Bitcoin while also leveraging the flexibility and efficiency of the Stacks layer, ensuring transaction finality through the Bitcoin network."
+                            copy=" Renewals (all TLD’s) – different TLD’s need to be renewed at different times for instance, new .btc names expire in 5 years, but .id names expire in 1 year/12 months.
+                            Renewal alerts – alerts that can be sent to a users email address provided in the manage section. They could upload a CSV of all their names to get real-time alerts on their expiry.
+                            "
                             iconClass={about.icon}
                             containerClass={about.container}
                         />
                         <BadgesBlock
-                            title="ON-CHAIN IV (INTRISTIC VALUE)"
-                            copy="Digital assets on our protocol are endowed with a decentralized market value signified by on-chain IV that is beyond manipulation by any user or the protocol itself, governed solely by Bitcoin layer-1. This mechanism offers a distinct advantage: as the value of Bitcoin increases, so does the market value & borrowing power of your digital asset."
+                            title="BNS Managment System"
+                            copy="The ability to create a profile, add your email for alerts & upload the BNS names you want to be alerted on their expiry,  add your BTC address to your BNS name (sending/receiving BTC currently only compatible with Leather), add your Nostr, update your Zonefile, Renewal, Transfer & Revoke options, all with slick UI/UX."
                             list={software}
                             block="software"
                             fullContainer="fullContainer"
@@ -53,8 +55,8 @@ export default function Technical() {
                             headerIcon={about.icon}
                         />
                         <BadgesBlock
-                            title="ON-CHAIN CREDIT LINE"
-                            copy="₿lockCity is solidifying its position as the decentralized layer for online passive income. By merely holding assets enables you to sustain a long Bitcoin position and conveniently hedge it by borrowing against your asset at a 0% interest rate. We are poised to set a new standard in Bitcoin asset utilization and yield generation."
+                            title="REST API"
+                            copy="The BNS REST API simplifies the integration of BNS functionality into applications, allowing developers to interact with the BNS naming system programmatically. By providing a simple and intuitive interface, the API enables seamless interaction with BNS, unlocking its full potential for developers and users alike."
                             list={tech}
                             block="tech"
                             fullContainer="fullContainer"
@@ -80,8 +82,8 @@ const software = [
     { key: 'mailbox', name: 'Community', type: 'fas' },
     { key: 'computer-mouse', name: 'Safe', type: 'fas' },
     { key: 'list-music', name: 'Transactions', type: 'fas' },
-    { key: 'aftereffects', name: 'NFT', type: 'devicon' },
-    { key: 'premierepro', name: 'Ordinals', type: 'devicon' },
+    { key: 'aftereffects', name: 'Renewals', type: 'devicon' },
+    { key: 'premierepro', name: 'BNS', type: 'devicon' },
 ]
 
 const tech = [

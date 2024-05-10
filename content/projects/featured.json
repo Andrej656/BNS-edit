@@ -3,32 +3,32 @@
 		"project": "Earn Native Yields",
 		"url": "https://docs.stacks.co/stacks-101/proof-of-transfer",
 		"repo": "Stacks",
-		"descriptionTitle": "HODL your Runes or Ordinals using a non-custodial wallet to earn yields from Proof of Transfer (POX).",
-		"description": "Compound your yields to grow exponentially in a decentralized way, all tax-efficiently.",
+		"descriptionTitle": "Just hold your BNS on our platform using a non-custodial wallet to earn yields from Proof of Transfer (POX).",
+		"description": "Make light work of registering and renewing BNS names with our ‘Send STX to many’ tool, in a few clicks up to 10 addresses can be funded at the speed of Nakamoto.",
 		"imageOptions": [
 		],
 		"images": [
 			{ "key": "portfolio",	"hover": "left", 	"h": "178", "w": "286", "url": "/img/stacks.png" }
 		],
 	    "stack": [
-			{ "key": "brc-20-stacks", "name": "BRC-20", "type": "crypto" },
-			{ "key": "bitcoin", 		"name": "Runes", 		"type": "crypto" },
+			{ "key": "brc-20-stacks", "name": "BNS", "type": "crypto" },
+			{ "key": "bitcoin", 		"name": "satoshi.btc", 		"type": "crypto" },
 			{ "key": "stacks", 		"name": "Stacks", 		"type": "devicon" },
-			{ "key": "stx", 	"name": "STX-20", 		"type": "devicon" },
-			{ "key": "sip", 	"name": "SIP-009", 	"type": "devicon" },
+			{ "key": "stx", 	"name": "SIP", 		"type": "devicon" },
+			{ "key": "sip", 	"name": "bitcoin.btc", 	"type": "devicon" },
 			{ "key": "clarity",		"name": "Clarity", 		"type": "devicon" },
 			{ "key": "layer",		"name": "Layer1", 		"type": "devicon" },
 			{ "key": "pox",		"name": "POX", 		"type": "devicon" },
-			{ "key": "pool",			"name": "Pool", 	"type": "devicon" }
+			{ "key": "pool",			"name": "wallet.btc", 	"type": "devicon" }
 		]	
 	
 	},
 	{
-		"project": "Lend and Borrow",
+		"project": "Bulk Renewal of BNS Names",
 		"url": "https://github.com/atlamors/portfolio",
 		"repo": "Clarity",
-		"descriptionTitle": "Lend your dormant Bitcoins or stablecoins and earn yields from Proof of Transfer (POX) without locking tokens or committing to the stacking cycles.",
-		"description": "Each digital asset has an on-chain credit line governed by its pegged reserves. Utilize your Runes or Ordinals as collateral to secure an instant loan at 0% interest.",
+		"descriptionTitle": "Renewing your BNS names became so much simpler with our two click renewal. Upload a CSV of all your names and we’ll provide you with real-time renewal alerts.",
+		"description": "Bulk registration makes it much more convenient for a user to be able to register available BNS names all at once",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -36,8 +36,8 @@
 			{ "key": "portfolio", "hover": "left", "h": "200", "w": "500",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
-			{ "key": "lend", 		"name": "Lend", 		"type": "crypto" },
-			{ "key": "borrow", 		"name": "Borrow", 		"type": "crypto" },
+			{ "key": "lend", 		"name": "Bitcoin", 		"type": "crypto" },
+			{ "key": "borrow", 		"name": "Yields", 		"type": "crypto" },
 			{ "key": "pox", 		"name": "POX", 		"type": "crypto" },
 			{ "key": "clarity", 	"name": "Clarity", 		"type": "crypto" },
 			{ "key": "rewards", 	"name": "Rewards", 	"type": "crytpo" },

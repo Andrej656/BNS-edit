@@ -64,11 +64,11 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.open( "https://blockcityfi.substack.com/p/join-the-waitlist") } >
+							onClick={ () => window.open( "https://twitter.com/bns_community") } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open("https://blockcityfi.substack.com/t/announcements", "_blank") } >
+							onClick={ ()=> window.open("https://btc.us/", "_blank") } >
 						{content.buttons.secondary.title}
 					</button>
 				</section>

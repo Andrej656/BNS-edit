@@ -13,9 +13,9 @@ export default function FeaturedProjects() {
         <Section classProp={css.hasBg}>
             <Container spacing={'verticalXXXXLrg'}>
                 <SectionTitle
-                    title="Plan ₿"
+                    title="BNS Upgrade"
                     preTitle=""
-                    subTitle=" Permissionless & Non-Custodial"
+                    subTitle=" Seamlessly Interact with the BNS"
                 />
                 {content.map((data, index) => {
                     return (
